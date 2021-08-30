@@ -1,0 +1,48 @@
+body {
+  background-color: #333;
+  color: #eee;
+}
+
+a {
+  color: #eee;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #333;
+}
+
+.card-header {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-img {
+  border-bottom: 2px solid #333;
+  border-radius: 0;
+}
+
+.card-body {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.projects .card {
+  width: 500px;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+ul.contributions li {
+  margin-bottom: 0.25rem;
+}
