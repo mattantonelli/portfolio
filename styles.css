@@ -1,6 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/open-sans');
+
 body {
   background-color: #333;
   color: #eee;
+  font-family: "Open Sans", "Arial";
 }
 
 a {
@@ -12,14 +15,8 @@ a:hover {
   color: #fff;
 }
 
-.jumbotron {
-  background-color: #292929;
-  padding: 1rem 2rem;
-  margin: 2rem 0 1rem 0;
-}
-
-.jumbotron > p {
-  font-size: 1.1rem;
+h5 {
+  margin-bottom: 0;
 }
 
 .card {
@@ -30,6 +27,7 @@ a:hover {
 
 .card-header {
   background-color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 0.5rem;
 }
 
 .card-title {
@@ -43,6 +41,7 @@ a:hover {
 
 .card-body {
   background-color: rgba(0, 0, 0, 0.2);
+  padding: 0.75rem 1.25rem;
 }
 
 .projects .card {
@@ -53,6 +52,11 @@ ul {
   margin-bottom: 0;
 }
 
-ul.contributions li {
+ul.contributions li, ul.list-inline {
   margin-bottom: 0.25rem;
+}
+
+ul.list-skills li.list-inline-item::before {
+  content: "\2218";
+  margin-right: 0.25rem;
 }
