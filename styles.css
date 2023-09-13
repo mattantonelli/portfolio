@@ -1,9 +1,9 @@
-@import url('https://fonts.cdnfonts.com/css/open-sans');
+@import url('https://fonts.googleapis.com/css2?family=Open%20Sans&display=swap');
 
 body {
   background-color: #333;
   color: #eee;
-  font-family: "Open Sans", "Arial";
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
