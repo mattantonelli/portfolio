@@ -60,3 +60,11 @@ ul.list-skills li.list-inline-item::before {
   content: "\2218";
   margin-right: 0.25rem;
 }
+
+.social svg {
+  margin-right: 0.25rem;
+}
+
+.social a {
+  margin-right: 0.5rem;
+}
